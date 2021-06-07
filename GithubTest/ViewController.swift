@@ -20,7 +20,8 @@ class ViewController: UIViewController {
         myLabel.layer
         .borderWidth = 1
     }
-
-
+    @IBAction func changeText(_ sender: Any) {
+        myLabel.text = "welcome to first github project"
+    }
 }
 
